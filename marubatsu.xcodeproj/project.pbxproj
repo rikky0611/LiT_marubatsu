@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A9CB19B1C7B15F200C35E37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9CB19A1C7B15F200C35E37 /* AppDelegate.swift */; };
+		9A9CB19D1C7B15F200C35E37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9CB19C1C7B15F200C35E37 /* ViewController.swift */; };
+		9A9CB1A01C7B15F200C35E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9CB19E1C7B15F200C35E37 /* Main.storyboard */; };
+		9A9CB1A21C7B15F200C35E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9CB1A11C7B15F200C35E37 /* Assets.xcassets */; };
+		9A9CB1A51C7B15F200C35E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9CB1A31C7B15F200C35E37 /* LaunchScreen.storyboard */; };
+		9A9CB1B01C7B15F200C35E37 /* marubatsuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9CB1AF1C7B15F200C35E37 /* marubatsuTests.swift */; };
+		9A9CB1BB1C7B15F200C35E37 /* marubatsuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9CB1BA1C7B15F200C35E37 /* marubatsuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A9CB1AC1C7B15F200C35E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A9CB18F1C7B15F200C35E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9CB1961C7B15F200C35E37;
+			remoteInfo = marubatsu;
+		};
+		9A9CB1B71C7B15F200C35E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A9CB18F1C7B15F200C35E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9CB1961C7B15F200C35E37;
+			remoteInfo = marubatsu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A9CB1971C7B15F200C35E37 /* marubatsu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marubatsu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9CB19A1C7B15F200C35E37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A9CB19C1C7B15F200C35E37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A9CB19F1C7B15F200C35E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A9CB1A11C7B15F200C35E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A9CB1A41C7B15F200C35E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A9CB1A61C7B15F200C35E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A9CB1AB1C7B15F200C35E37 /* marubatsuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marubatsuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9CB1AF1C7B15F200C35E37 /* marubatsuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marubatsuTests.swift; sourceTree = "<group>"; };
+		9A9CB1B11C7B15F200C35E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A9CB1B61C7B15F200C35E37 /* marubatsuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marubatsuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9CB1BA1C7B15F200C35E37 /* marubatsuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marubatsuUITests.swift; sourceTree = "<group>"; };
+		9A9CB1BC1C7B15F200C35E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A9CB1941C7B15F200C35E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9CB1A81C7B15F200C35E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9CB1B31C7B15F200C35E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A9CB18E1C7B15F200C35E37 = {
+			isa = PBXGroup;
+			children = (
+				9A9CB1991C7B15F200C35E37 /* marubatsu */,
+				9A9CB1AE1C7B15F200C35E37 /* marubatsuTests */,
+				9A9CB1B91C7B15F200C35E37 /* marubatsuUITests */,
+				9A9CB1981C7B15F200C35E37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A9CB1981C7B15F200C35E37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A9CB1971C7B15F200C35E37 /* marubatsu.app */,
+				9A9CB1AB1C7B15F200C35E37 /* marubatsuTests.xctest */,
+				9A9CB1B61C7B15F200C35E37 /* marubatsuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A9CB1991C7B15F200C35E37 /* marubatsu */ = {
+			isa = PBXGroup;
+			children = (
+				9A9CB19A1C7B15F200C35E37 /* AppDelegate.swift */,
+				9A9CB19C1C7B15F200C35E37 /* ViewController.swift */,
+				9A9CB19E1C7B15F200C35E37 /* Main.storyboard */,
+				9A9CB1A11C7B15F200C35E37 /* Assets.xcassets */,
+				9A9CB1A31C7B15F200C35E37 /* LaunchScreen.storyboard */,
+				9A9CB1A61C7B15F200C35E37 /* Info.plist */,
+			);
+			path = marubatsu;
+			sourceTree = "<group>";
+		};
+		9A9CB1AE1C7B15F200C35E37 /* marubatsuTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A9CB1AF1C7B15F200C35E37 /* marubatsuTests.swift */,
+				9A9CB1B11C7B15F200C35E37 /* Info.plist */,
+			);
+			path = marubatsuTests;
+			sourceTree = "<group>";
+		};
+		9A9CB1B91C7B15F200C35E37 /* marubatsuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A9CB1BA1C7B15F200C35E37 /* marubatsuUITests.swift */,
+				9A9CB1BC1C7B15F200C35E37 /* Info.plist */,
+			);
+			path = marubatsuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A9CB1961C7B15F200C35E37 /* marubatsu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9CB1BF1C7B15F200C35E37 /* Build configuration list for PBXNativeTarget "marubatsu" */;
+			buildPhases = (
+				9A9CB1931C7B15F200C35E37 /* Sources */,
+				9A9CB1941C7B15F200C35E37 /* Frameworks */,
+				9A9CB1951C7B15F200C35E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = marubatsu;
+			productName = marubatsu;
+			productReference = 9A9CB1971C7B15F200C35E37 /* marubatsu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A9CB1AA1C7B15F200C35E37 /* marubatsuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9CB1C21C7B15F200C35E37 /* Build configuration list for PBXNativeTarget "marubatsuTests" */;
+			buildPhases = (
+				9A9CB1A71C7B15F200C35E37 /* Sources */,
+				9A9CB1A81C7B15F200C35E37 /* Frameworks */,
+				9A9CB1A91C7B15F200C35E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A9CB1AD1C7B15F200C35E37 /* PBXTargetDependency */,
+			);
+			name = marubatsuTests;
+			productName = marubatsuTests;
+			productReference = 9A9CB1AB1C7B15F200C35E37 /* marubatsuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A9CB1B51C7B15F200C35E37 /* marubatsuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9CB1C51C7B15F200C35E37 /* Build configuration list for PBXNativeTarget "marubatsuUITests" */;
+			buildPhases = (
+				9A9CB1B21C7B15F200C35E37 /* Sources */,
+				9A9CB1B31C7B15F200C35E37 /* Frameworks */,
+				9A9CB1B41C7B15F200C35E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A9CB1B81C7B15F200C35E37 /* PBXTargetDependency */,
+			);
+			name = marubatsuUITests;
+			productName = marubatsuUITests;
+			productReference = 9A9CB1B61C7B15F200C35E37 /* marubatsuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A9CB18F1C7B15F200C35E37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = riku_arakawa;
+				TargetAttributes = {
+					9A9CB1961C7B15F200C35E37 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = W5GEL5NL4Y;
+					};
+					9A9CB1AA1C7B15F200C35E37 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = W5GEL5NL4Y;
+						TestTargetID = 9A9CB1961C7B15F200C35E37;
+					};
+					9A9CB1B51C7B15F200C35E37 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = W5GEL5NL4Y;
+						TestTargetID = 9A9CB1961C7B15F200C35E37;
+					};
+				};
+			};
+			buildConfigurationList = 9A9CB1921C7B15F200C35E37 /* Build configuration list for PBXProject "marubatsu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A9CB18E1C7B15F200C35E37;
+			productRefGroup = 9A9CB1981C7B15F200C35E37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A9CB1961C7B15F200C35E37 /* marubatsu */,
+				9A9CB1AA1C7B15F200C35E37 /* marubatsuTests */,
+				9A9CB1B51C7B15F200C35E37 /* marubatsuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A9CB1951C7B15F200C35E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9CB1A51C7B15F200C35E37 /* LaunchScreen.storyboard in Resources */,
+				9A9CB1A21C7B15F200C35E37 /* Assets.xcassets in Resources */,
+				9A9CB1A01C7B15F200C35E37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9CB1A91C7B15F200C35E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9CB1B41C7B15F200C35E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A9CB1931C7B15F200C35E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9CB19D1C7B15F200C35E37 /* ViewController.swift in Sources */,
+				9A9CB19B1C7B15F200C35E37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9CB1A71C7B15F200C35E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9CB1B01C7B15F200C35E37 /* marubatsuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9CB1B21C7B15F200C35E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9CB1BB1C7B15F200C35E37 /* marubatsuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A9CB1AD1C7B15F200C35E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A9CB1961C7B15F200C35E37 /* marubatsu */;
+			targetProxy = 9A9CB1AC1C7B15F200C35E37 /* PBXContainerItemProxy */;
+		};
+		9A9CB1B81C7B15F200C35E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A9CB1961C7B15F200C35E37 /* marubatsu */;
+			targetProxy = 9A9CB1B71C7B15F200C35E37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A9CB19E1C7B15F200C35E37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A9CB19F1C7B15F200C35E37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A9CB1A31C7B15F200C35E37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A9CB1A41C7B15F200C35E37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A9CB1BD1C7B15F200C35E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A9CB1BE1C7B15F200C35E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A9CB1C01C7B15F200C35E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = marubatsu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "riku-arakawa.marubatsu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A9CB1C11C7B15F200C35E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = marubatsu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "riku-arakawa.marubatsu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A9CB1C31C7B15F200C35E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = marubatsuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "riku-arakawa.marubatsuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marubatsu.app/marubatsu";
+			};
+			name = Debug;
+		};
+		9A9CB1C41C7B15F200C35E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = marubatsuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "riku-arakawa.marubatsuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marubatsu.app/marubatsu";
+			};
+			name = Release;
+		};
+		9A9CB1C61C7B15F200C35E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = marubatsuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "riku-arakawa.marubatsuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = marubatsu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9A9CB1C71C7B15F200C35E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = marubatsuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "riku-arakawa.marubatsuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = marubatsu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A9CB1921C7B15F200C35E37 /* Build configuration list for PBXProject "marubatsu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9CB1BD1C7B15F200C35E37 /* Debug */,
+				9A9CB1BE1C7B15F200C35E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9CB1BF1C7B15F200C35E37 /* Build configuration list for PBXNativeTarget "marubatsu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9CB1C01C7B15F200C35E37 /* Debug */,
+				9A9CB1C11C7B15F200C35E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A9CB1C21C7B15F200C35E37 /* Build configuration list for PBXNativeTarget "marubatsuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9CB1C31C7B15F200C35E37 /* Debug */,
+				9A9CB1C41C7B15F200C35E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A9CB1C51C7B15F200C35E37 /* Build configuration list for PBXNativeTarget "marubatsuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9CB1C61C7B15F200C35E37 /* Debug */,
+				9A9CB1C71C7B15F200C35E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A9CB18F1C7B15F200C35E37 /* Project object */;
+}
