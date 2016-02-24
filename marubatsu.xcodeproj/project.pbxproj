@@ -14,6 +14,7 @@
 		9A9CB1A51C7B15F200C35E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9CB1A31C7B15F200C35E37 /* LaunchScreen.storyboard */; };
 		9A9CB1B01C7B15F200C35E37 /* marubatsuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9CB1AF1C7B15F200C35E37 /* marubatsuTests.swift */; };
 		9A9CB1BB1C7B15F200C35E37 /* marubatsuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9CB1BA1C7B15F200C35E37 /* marubatsuUITests.swift */; };
+		9A9CB1C91C7C9DA000C35E37 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9CB1C81C7C9DA000C35E37 /* Board.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9A9CB1B61C7B15F200C35E37 /* marubatsuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marubatsuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9CB1BA1C7B15F200C35E37 /* marubatsuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marubatsuUITests.swift; sourceTree = "<group>"; };
 		9A9CB1BC1C7B15F200C35E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A9CB1C81C7C9DA000C35E37 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		9A9CB1991C7B15F200C35E37 /* marubatsu */ = {
 			isa = PBXGroup;
 			children = (
+				9A9CB1C81C7C9DA000C35E37 /* Board.swift */,
 				9A9CB19A1C7B15F200C35E37 /* AppDelegate.swift */,
 				9A9CB19C1C7B15F200C35E37 /* ViewController.swift */,
 				9A9CB19E1C7B15F200C35E37 /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				9A9CB19D1C7B15F200C35E37 /* ViewController.swift in Sources */,
 				9A9CB19B1C7B15F200C35E37 /* AppDelegate.swift in Sources */,
+				9A9CB1C91C7C9DA000C35E37 /* Board.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +489,7 @@
 				9A9CB1C11C7B15F200C35E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A9CB1C21C7B15F200C35E37 /* Build configuration list for PBXNativeTarget "marubatsuTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				9A9CB1C41C7B15F200C35E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A9CB1C51C7B15F200C35E37 /* Build configuration list for PBXNativeTarget "marubatsuUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				9A9CB1C71C7B15F200C35E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
