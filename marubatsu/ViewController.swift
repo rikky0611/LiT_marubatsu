@@ -47,6 +47,7 @@ class ViewController: UIViewController {
             return
         }
         btn.setTitle("\(board.currentPlayer())", forState: .Normal)
+        btn.setTitleColor(UIColor.redColor(), forState: .Normal)
         board.put(btn.tag)
         
         let winner = board.winner()
