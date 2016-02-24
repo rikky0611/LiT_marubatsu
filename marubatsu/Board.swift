@@ -9,6 +9,9 @@
 import Foundation
 
 class Board{
+    
+    
+    
     //状態
     enum Status{
         case Blank

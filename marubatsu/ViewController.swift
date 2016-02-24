@@ -11,17 +11,23 @@ import UIKit
 class ViewController: UIViewController {
     
     var board = Board()
+    let screenWidth = UIScreen.mainScreen().bounds.size.width
+    let screenHeight = UIScreen.mainScreen().bounds.size.height
+    let boardView = UIView()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let screenWidth = UIScreen.mainScreen().bounds.size.width
-        let screenHeight = UIScreen.mainScreen().bounds.size.height
-        
+        initialize()
+       
+    }
+    
+    func initialize(){
         let boardSize = CGSizeMake(screenWidth,screenHeight)
         let boardOrigin = CGPointMake(0,(screenHeight - boardSize.height)/2)
         
-        let boardView = UIView()
+        
         boardView.frame.origin = boardOrigin
         boardView.frame.size = boardSize
         self.view.addSubview(boardView)
@@ -55,7 +61,35 @@ class ViewController: UIViewController {
             NSLog("\(winner)の勝ち！")
             return
         }
+        
+        if board.turn == 9{
+            createResetUIs()
+        }
     }
+    
+    func createResetUIs(){
+        let btn = UIButton(frame: CGRectMake(screenWidth/2-50,screenHeight-200,100,50))
+        btn.layer.borderColor = UIColor.blackColor().CGColor
+        btn.layer.borderWidth = 2.0
+        btn.setTitle("reset", forState: .Normal)
+        btn.setTitleColor(UIColor.redColor(), forState: .Normal)
+        btn.addTarget(self, action: "resetBtnClick", forControlEvents: .TouchUpInside)
+        boardView.addSubview(btn)
+    }
+    
+    func resetBtnClick(){
+        board = Board()
+        removeAllsubViews(boardView)
+        initialize()
+    }
+    
+    func removeAllsubViews(superView: UIView){
+        let subViews = superView.subviews
+        for subView in subViews{
+            subView.removeFromSuperview()
+        }
+    }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
